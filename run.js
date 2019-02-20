@@ -29,9 +29,9 @@ let options = {
 let outerRP = () =>  {
 	rp(options)
 		.then(($) => {
+			itemsPerPage = $('.v-card').length;
 			if (currentPage === 1) {
 				allFoundItems = Number($('.pagination > p').contents()[1].data);
-				itemsPerPage = $('.v-card').length;
 				pagesCount = Math.round(allFoundItems / itemsPerPage);
 			}
 			for (let i = 0; i <= itemsPerPage; i++) {
