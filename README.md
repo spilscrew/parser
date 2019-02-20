@@ -1,2 +1,4 @@
-# parser
-Parser task
+# Parser
+
+npm install
+node run
