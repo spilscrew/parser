@@ -1,4 +1,8 @@
 # Parser
 
-npm install
+## Run
+npm install<br>
 node run
+
+## Output
+localhost
